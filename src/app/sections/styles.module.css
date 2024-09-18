@@ -1,0 +1,64 @@
+.headerStyles {
+	background-color: #000;
+	color: #fff;
+	padding: 1rem 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	@media (max-width: 768px) {
+	}
+
+	@media (max-width: 480px) {
+		padding: 1rem 1rem;
+	}
+}
+
+.headerContent {
+	display: flex;
+	align-items: center;
+	width: 100%;
+
+	@media (max-width: 480px) {
+		justify-content: space-between;
+	}
+}
+
+.loginButton {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	@media (max-width: 480px) {
+		display: none;
+	}
+
+	@media (min-width: 480px) {
+		display: block;
+	}
+}
+
+.navStyles {
+	justify-content: space-between;
+	align-items: center;
+
+	@media (max-width: 480px) {
+		display: none;
+	}
+
+	@media (min-width: 480px) {
+		display: flex;
+	}
+}
+
+.navStyles ul {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	list-style: none;
+	text-decoration: none;
+}
+
+.navStyles ul li {
+	margin-left: 3rem;
+}
